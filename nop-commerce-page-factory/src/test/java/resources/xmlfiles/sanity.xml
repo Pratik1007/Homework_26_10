@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/MISARI/IdeaProjects/nop-commerce-page-factory/src/test/java/testsuite/NopCommerce.java">
+
+        <groups>
+            <run>
+                <include name="sanity">
+                </include>
+            </run>
+        </groups>
+
+
+      <classes>
+          <class name="testsuite.NopCommerce">
+
+          </class>
+      </classes>
+    </test>
+</suite>
